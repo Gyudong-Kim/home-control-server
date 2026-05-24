@@ -1,0 +1,16 @@
+services:
+  home-control-server:
+    build: .
+    platform: linux/arm64
+    restart: always
+    ports:
+      - "${PORT:-3000}:3000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

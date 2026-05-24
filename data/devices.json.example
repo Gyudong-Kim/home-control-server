@@ -1,0 +1,6 @@
+{
+  "devices": [
+    { "id": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", "name": "거실 조명" },
+    { "id": "yyyyyyyy-yyyy-yyyy-yyyy-yyyyyyyyyyyy", "name": "침실 조명" }
+  ]
+}
