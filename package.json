@@ -1,6 +1,6 @@
 {
   "name": "home-control-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SmartThings home control REST API server",
   "main": "src/app.js",
   "scripts": {
