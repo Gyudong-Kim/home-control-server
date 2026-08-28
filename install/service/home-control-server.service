@@ -4,7 +4,7 @@ Requires=docker.service
 After=docker.service
 
 [Service]
-WorkingDirectory=/home/gyudong/home-control-server
+WorkingDirectory=/home/gyudong/ws/home-control-server
 Type=oneshot
 RemainAfterExit=yes
 ExecStart=/usr/bin/docker compose up -d
